@@ -1,3 +1,5 @@
+// Tag.js
+
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
@@ -7,12 +9,12 @@ Tag.init(
   {
     id: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       primaryKey: true,
       autoIncrement: true,
-      allowNull: false,
     },
     tag_name: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING
     },
   },
   {
