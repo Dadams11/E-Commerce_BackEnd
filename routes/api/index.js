@@ -1,6 +1,5 @@
 const router = require('express').Router();
 
-// If your index.js file is in a directory called 'models', the imports should be like this:
 
 const Product = require('../../models/Product');
 const Category = require('../../models/Category');

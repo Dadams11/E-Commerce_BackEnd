@@ -2,9 +2,8 @@
 
 const express = require('express');
 const router = express.Router();
-// ...
 const { Category, Product } = require('../../models');
-// ...
+
 
 
 // GET all categories
